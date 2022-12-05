@@ -12,34 +12,69 @@
         <!--Main Screen View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="MainScreenViewController" customModule="iOSDemoTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainScreenViewController" customModule="iOSDemoAutoLayout" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1k1-fT-enW">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="emE-43-Ze1">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ucT-cv-qm2">
-                                        <rect key="frame" x="156.5" y="393.5" width="101.5" height="31"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7T4-H1-ybE">
+                                        <rect key="frame" x="10" y="10" width="394" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="Key-2g-cd1"/>
+                                        </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="First Screen"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="2 equal collumn"/>
+                                        <connections>
+                                            <action selector="demo2EqualColumnAutoLayout_Tap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6LE-4E-TPS"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XbZ-OK-fqv">
+                                        <rect key="frame" x="10" y="70" width="394" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="BgE-W0-2g6"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="3 equal collumn"/>
+                                        <connections>
+                                            <action selector="demo3EqualColumnAutoLayout_Tap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0lJ-rW-S1p"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3rZ-nF-6Bx">
+                                        <rect key="frame" x="10" y="130" width="394" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="TrF-fB-mdL"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="4 equal collumn"/>
+                                        <connections>
+                                            <action selector="demo4EqualColumnAutoLayout_Tap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zjY-nE-Nfp"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstItem="ucT-cv-qm2" firstAttribute="centerY" secondItem="1k1-fT-enW" secondAttribute="centerY" id="NfN-Ra-LuI"/>
-                                    <constraint firstItem="ucT-cv-qm2" firstAttribute="centerX" secondItem="1k1-fT-enW" secondAttribute="centerX" id="glU-Ax-hgy"/>
+                                    <constraint firstAttribute="trailing" secondItem="3rZ-nF-6Bx" secondAttribute="trailing" constant="10" id="4T4-zQ-iA6"/>
+                                    <constraint firstItem="3rZ-nF-6Bx" firstAttribute="top" secondItem="XbZ-OK-fqv" secondAttribute="bottom" constant="10" id="8rK-8x-XcS"/>
+                                    <constraint firstItem="7T4-H1-ybE" firstAttribute="leading" secondItem="emE-43-Ze1" secondAttribute="leading" constant="10" id="AA5-0f-uun"/>
+                                    <constraint firstAttribute="trailing" secondItem="XbZ-OK-fqv" secondAttribute="trailing" constant="10" id="Dkw-zd-Wyc"/>
+                                    <constraint firstItem="7T4-H1-ybE" firstAttribute="top" secondItem="emE-43-Ze1" secondAttribute="top" constant="10" id="QJe-ZU-Ktx"/>
+                                    <constraint firstItem="XbZ-OK-fqv" firstAttribute="leading" secondItem="emE-43-Ze1" secondAttribute="leading" constant="10" id="liW-Wc-aAP"/>
+                                    <constraint firstAttribute="trailing" secondItem="7T4-H1-ybE" secondAttribute="trailing" constant="10" id="t5j-Ne-wIQ"/>
+                                    <constraint firstItem="3rZ-nF-6Bx" firstAttribute="leading" secondItem="emE-43-Ze1" secondAttribute="leading" constant="10" id="ucp-lT-FQb"/>
+                                    <constraint firstItem="XbZ-OK-fqv" firstAttribute="top" secondItem="7T4-H1-ybE" secondAttribute="bottom" constant="10" id="up9-ha-9A9"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="hXc-Va-M3I"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="1k1-fT-enW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HiA-Ij-Jyw"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1k1-fT-enW" secondAttribute="bottom" id="Z1z-qt-0aD"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1k1-fT-enW" secondAttribute="trailing" id="aGI-SR-BBq"/>
-                            <constraint firstItem="1k1-fT-enW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="xRa-Wk-q2u"/>
+                            <constraint firstItem="hXc-Va-M3I" firstAttribute="trailing" secondItem="emE-43-Ze1" secondAttribute="trailing" id="M0m-cg-ABZ"/>
+                            <constraint firstItem="emE-43-Ze1" firstAttribute="top" secondItem="hXc-Va-M3I" secondAttribute="top" id="Sef-jI-yHK"/>
+                            <constraint firstItem="emE-43-Ze1" firstAttribute="leading" secondItem="hXc-Va-M3I" secondAttribute="leading" id="hAj-OB-uxr"/>
+                            <constraint firstItem="hXc-Va-M3I" firstAttribute="bottom" secondItem="emE-43-Ze1" secondAttribute="bottom" id="hXB-Ap-klL"/>
                         </constraints>
                     </view>
                 </viewController>

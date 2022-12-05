@@ -10,6 +10,18 @@
 		35414DBA50AEBEAB052C2042 /* Pods_iOSDemoAutoLayoutTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D1052338D62A764B28343D /* Pods_iOSDemoAutoLayoutTests.framework */; };
 		A631C3EDFE29D94F87CF2781 /* Pods_iOSDemoAutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB08C96A47E35A7AB86A1B60 /* Pods_iOSDemoAutoLayout.framework */; };
 		C382C569A18D9EA0F3736328 /* Pods_iOSDemoAutoLayout_iOSDemoAutoLayoutUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2B7C26D14BB532DB4F9277 /* Pods_iOSDemoAutoLayout_iOSDemoAutoLayoutUITests.framework */; };
+		D3105D70293E439300D6A1EE /* Demo2EqualColumnAutoLayout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3105D6E293E439300D6A1EE /* Demo2EqualColumnAutoLayout.storyboard */; };
+		D3105D71293E439300D6A1EE /* Demo2EqualColumnAutoLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3105D6F293E439300D6A1EE /* Demo2EqualColumnAutoLayoutViewController.swift */; };
+		D3105D73293E43A200D6A1EE /* Demo2EqualColumnAutoLayoutPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3105D72293E43A200D6A1EE /* Demo2EqualColumnAutoLayoutPresenter.swift */; };
+		D3105D75293E43AB00D6A1EE /* Demo2EqualColumnAutoLayoutWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3105D74293E43AB00D6A1EE /* Demo2EqualColumnAutoLayoutWireFrame.swift */; };
+		D3105D7C293E45CB00D6A1EE /* Demo3EqualColumnAutoLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3105D7A293E45CB00D6A1EE /* Demo3EqualColumnAutoLayoutViewController.swift */; };
+		D3105D7D293E45CB00D6A1EE /* Demo3EqualColumnAutoLayout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3105D7B293E45CB00D6A1EE /* Demo3EqualColumnAutoLayout.storyboard */; };
+		D3105D7F293E45D100D6A1EE /* Demo3EqualColumnAutoLayoutPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3105D7E293E45D100D6A1EE /* Demo3EqualColumnAutoLayoutPresenter.swift */; };
+		D3105D81293E45DB00D6A1EE /* Demo3EqualColumnAutoLayoutWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3105D80293E45DB00D6A1EE /* Demo3EqualColumnAutoLayoutWireFrame.swift */; };
+		D3105D88293E469300D6A1EE /* Demo4EqualColumnAutoLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3105D86293E469300D6A1EE /* Demo4EqualColumnAutoLayoutViewController.swift */; };
+		D3105D89293E469300D6A1EE /* Demo4EqualColumnAutoLayout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3105D87293E469300D6A1EE /* Demo4EqualColumnAutoLayout.storyboard */; };
+		D3105D8B293E469800D6A1EE /* Demo4EqualColumnAutoLayoutPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3105D8A293E469800D6A1EE /* Demo4EqualColumnAutoLayoutPresenter.swift */; };
+		D3105D8D293E469D00D6A1EE /* Demo4EqualColumnAutoLayoutWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3105D8C293E469D00D6A1EE /* Demo4EqualColumnAutoLayoutWireFrame.swift */; };
 		D32B942E293E3DE3003F64EA /* ViewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32B942D293E3DE3003F64EA /* ViewService.swift */; };
 		D32B9430293E3DF4003F64EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32B942F293E3DF4003F64EA /* ViewController.swift */; };
 		D32B9433293E3E08003F64EA /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32B9431293E3E08003F64EA /* UITableView.swift */; };
@@ -48,6 +60,18 @@
 		AAFA5042AAFF626B91E041DC /* Pods-iOSDemoAutoLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDemoAutoLayout.debug.xcconfig"; path = "Target Support Files/Pods-iOSDemoAutoLayout/Pods-iOSDemoAutoLayout.debug.xcconfig"; sourceTree = "<group>"; };
 		AB08C96A47E35A7AB86A1B60 /* Pods_iOSDemoAutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSDemoAutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF2A1F47004F1022C14D3C1 /* Pods-iOSDemoAutoLayout-iOSDemoAutoLayoutUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDemoAutoLayout-iOSDemoAutoLayoutUITests.release.xcconfig"; path = "Target Support Files/Pods-iOSDemoAutoLayout-iOSDemoAutoLayoutUITests/Pods-iOSDemoAutoLayout-iOSDemoAutoLayoutUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D3105D6E293E439300D6A1EE /* Demo2EqualColumnAutoLayout.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Demo2EqualColumnAutoLayout.storyboard; sourceTree = "<group>"; };
+		D3105D6F293E439300D6A1EE /* Demo2EqualColumnAutoLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo2EqualColumnAutoLayoutViewController.swift; sourceTree = "<group>"; };
+		D3105D72293E43A200D6A1EE /* Demo2EqualColumnAutoLayoutPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo2EqualColumnAutoLayoutPresenter.swift; sourceTree = "<group>"; };
+		D3105D74293E43AB00D6A1EE /* Demo2EqualColumnAutoLayoutWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo2EqualColumnAutoLayoutWireFrame.swift; sourceTree = "<group>"; };
+		D3105D7A293E45CB00D6A1EE /* Demo3EqualColumnAutoLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo3EqualColumnAutoLayoutViewController.swift; sourceTree = "<group>"; };
+		D3105D7B293E45CB00D6A1EE /* Demo3EqualColumnAutoLayout.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Demo3EqualColumnAutoLayout.storyboard; sourceTree = "<group>"; };
+		D3105D7E293E45D100D6A1EE /* Demo3EqualColumnAutoLayoutPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo3EqualColumnAutoLayoutPresenter.swift; sourceTree = "<group>"; };
+		D3105D80293E45DB00D6A1EE /* Demo3EqualColumnAutoLayoutWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo3EqualColumnAutoLayoutWireFrame.swift; sourceTree = "<group>"; };
+		D3105D86293E469300D6A1EE /* Demo4EqualColumnAutoLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo4EqualColumnAutoLayoutViewController.swift; sourceTree = "<group>"; };
+		D3105D87293E469300D6A1EE /* Demo4EqualColumnAutoLayout.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Demo4EqualColumnAutoLayout.storyboard; sourceTree = "<group>"; };
+		D3105D8A293E469800D6A1EE /* Demo4EqualColumnAutoLayoutPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo4EqualColumnAutoLayoutPresenter.swift; sourceTree = "<group>"; };
+		D3105D8C293E469D00D6A1EE /* Demo4EqualColumnAutoLayoutWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo4EqualColumnAutoLayoutWireFrame.swift; sourceTree = "<group>"; };
 		D32B942D293E3DE3003F64EA /* ViewService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewService.swift; sourceTree = "<group>"; };
 		D32B942F293E3DF4003F64EA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D32B9431293E3E08003F64EA /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
@@ -120,6 +144,111 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		D3105D6A293E42EF00D6A1EE /* Demo2EqualColumnAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				D3105D6D293E430300D6A1EE /* WireFrame */,
+				D3105D6C293E42FD00D6A1EE /* Presenter */,
+				D3105D6B293E42F800D6A1EE /* View */,
+			);
+			path = Demo2EqualColumnAutoLayout;
+			sourceTree = "<group>";
+		};
+		D3105D6B293E42F800D6A1EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D3105D6E293E439300D6A1EE /* Demo2EqualColumnAutoLayout.storyboard */,
+				D3105D6F293E439300D6A1EE /* Demo2EqualColumnAutoLayoutViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D3105D6C293E42FD00D6A1EE /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D3105D72293E43A200D6A1EE /* Demo2EqualColumnAutoLayoutPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D3105D6D293E430300D6A1EE /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				D3105D74293E43AB00D6A1EE /* Demo2EqualColumnAutoLayoutWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		D3105D76293E457400D6A1EE /* Demo3EqualColumnAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				D3105D79293E458600D6A1EE /* WireFrame */,
+				D3105D78293E458000D6A1EE /* Presenter */,
+				D3105D77293E457A00D6A1EE /* View */,
+			);
+			path = Demo3EqualColumnAutoLayout;
+			sourceTree = "<group>";
+		};
+		D3105D77293E457A00D6A1EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D3105D7B293E45CB00D6A1EE /* Demo3EqualColumnAutoLayout.storyboard */,
+				D3105D7A293E45CB00D6A1EE /* Demo3EqualColumnAutoLayoutViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D3105D78293E458000D6A1EE /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D3105D7E293E45D100D6A1EE /* Demo3EqualColumnAutoLayoutPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D3105D79293E458600D6A1EE /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				D3105D80293E45DB00D6A1EE /* Demo3EqualColumnAutoLayoutWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		D3105D82293E466000D6A1EE /* Demo4EqualColumnAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				D3105D85293E467A00D6A1EE /* WireFrame */,
+				D3105D84293E467400D6A1EE /* Presenter */,
+				D3105D83293E467000D6A1EE /* View */,
+			);
+			path = Demo4EqualColumnAutoLayout;
+			sourceTree = "<group>";
+		};
+		D3105D83293E467000D6A1EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D3105D87293E469300D6A1EE /* Demo4EqualColumnAutoLayout.storyboard */,
+				D3105D86293E469300D6A1EE /* Demo4EqualColumnAutoLayoutViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D3105D84293E467400D6A1EE /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D3105D8A293E469800D6A1EE /* Demo4EqualColumnAutoLayoutPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D3105D85293E467A00D6A1EE /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				D3105D8C293E469D00D6A1EE /* Demo4EqualColumnAutoLayoutWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
 		D32B9427293E3D9A003F64EA /* Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +275,9 @@
 		D32B942A293E3DC3003F64EA /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				D3105D82293E466000D6A1EE /* Demo4EqualColumnAutoLayout */,
+				D3105D76293E457400D6A1EE /* Demo3EqualColumnAutoLayout */,
+				D3105D6A293E42EF00D6A1EE /* Demo2EqualColumnAutoLayout */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -331,7 +463,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3105D70293E439300D6A1EE /* Demo2EqualColumnAutoLayout.storyboard in Resources */,
 				D34F3F82293E3C46009942EE /* LaunchScreen.storyboard in Resources */,
+				D3105D89293E469300D6A1EE /* Demo4EqualColumnAutoLayout.storyboard in Resources */,
+				D3105D7D293E45CB00D6A1EE /* Demo3EqualColumnAutoLayout.storyboard in Resources */,
 				D34F3F7F293E3C46009942EE /* Assets.xcassets in Resources */,
 				D34F3F7D293E3C44009942EE /* Main.storyboard in Resources */,
 			);
@@ -427,12 +562,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3105D73293E43A200D6A1EE /* Demo2EqualColumnAutoLayoutPresenter.swift in Sources */,
+				D3105D75293E43AB00D6A1EE /* Demo2EqualColumnAutoLayoutWireFrame.swift in Sources */,
+				D3105D7F293E45D100D6A1EE /* Demo3EqualColumnAutoLayoutPresenter.swift in Sources */,
+				D3105D8D293E469D00D6A1EE /* Demo4EqualColumnAutoLayoutWireFrame.swift in Sources */,
+				D3105D81293E45DB00D6A1EE /* Demo3EqualColumnAutoLayoutWireFrame.swift in Sources */,
 				D34F3F7A293E3C44009942EE /* MainScreenViewController.swift in Sources */,
 				D34F3F76293E3C44009942EE /* AppDelegate.swift in Sources */,
 				D32B9434293E3E08003F64EA /* UIViewController.swift in Sources */,
+				D3105D7C293E45CB00D6A1EE /* Demo3EqualColumnAutoLayoutViewController.swift in Sources */,
 				D32B9433293E3E08003F64EA /* UITableView.swift in Sources */,
 				D32B9430293E3DF4003F64EA /* ViewController.swift in Sources */,
 				D32B942E293E3DE3003F64EA /* ViewService.swift in Sources */,
+				D3105D88293E469300D6A1EE /* Demo4EqualColumnAutoLayoutViewController.swift in Sources */,
+				D3105D8B293E469800D6A1EE /* Demo4EqualColumnAutoLayoutPresenter.swift in Sources */,
+				D3105D71293E439300D6A1EE /* Demo2EqualColumnAutoLayoutViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
