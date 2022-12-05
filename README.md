@@ -5,13 +5,13 @@ Guide to use auto layout for iOS app development
 
 Open terminal and Run the following command
 
-git clone git@github.com:tranviethuy01/iOS-UITabBar.git
+git clone git@github.com:tranviethuy01/ios-auto-layout.git
 
-cd iOS-UITabBar/iOSDemoTabBar
+cd ios-auto-layout/iOSDemoAutoLayout
 
 pod install
 
-open iOSDemoTabBar.xcworkspace
+open iOSDemoAutoLayout.xcworkspace
 
 # Demo
 Auto layout to create 2 equal column view
