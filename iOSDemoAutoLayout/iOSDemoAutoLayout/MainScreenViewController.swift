@@ -27,6 +27,11 @@ class MainScreenViewController: ViewController {
         showDemo4EqualColumnAutoLayout()
     }
     
+    @IBAction func demo1FixedColumnAnd1DynamicColumn_Tap(_ sender: Any) {
+        
+        showDemo1FixedColumnAnd1DynamicColumn()
+    }
+    
     private func showDemo2EqualColumnAutoLayout() {
         if let vc = Demo2EqualColumnAutoLayoutWireFrame.createDemo2EqualColumnAutoLayoutViewController(){
             if let topMostVC = ViewService.findTopMostViewController() {
@@ -57,5 +62,16 @@ class MainScreenViewController: ViewController {
             
         }
     }
+    
+    private func showDemo1FixedColumnAnd1DynamicColumn() {
+        if let vc = Demo1FixedColumnAnd1DynamicColumnWireFrame.createDemo1FixedColumnAnd1DynamicColumnViewController(){
+            if let topMostVC = ViewService.findTopMostViewController() {
+                let navigationController = UINavigationController.init(rootViewController: vc)
+                topMostVC.customPresent(navigationController, animated: true)
+            }
+            
+        }
+    }
+    
 }
 

@@ -53,14 +53,28 @@
                                             <action selector="demo4EqualColumnAutoLayout_Tap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zjY-nE-Nfp"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zTK-Z9-wMt">
+                                        <rect key="frame" x="10" y="190" width="394" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="hSm-UB-Qgk"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="1 fixed column and 1 dynamic column"/>
+                                        <connections>
+                                            <action selector="demo1FixedColumnAnd1DynamicColumn_Tap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ezp-6g-Fal"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
+                                    <constraint firstItem="zTK-Z9-wMt" firstAttribute="leading" secondItem="3rZ-nF-6Bx" secondAttribute="leading" id="1go-2s-8cQ"/>
                                     <constraint firstAttribute="trailing" secondItem="3rZ-nF-6Bx" secondAttribute="trailing" constant="10" id="4T4-zQ-iA6"/>
                                     <constraint firstItem="3rZ-nF-6Bx" firstAttribute="top" secondItem="XbZ-OK-fqv" secondAttribute="bottom" constant="10" id="8rK-8x-XcS"/>
                                     <constraint firstItem="7T4-H1-ybE" firstAttribute="leading" secondItem="emE-43-Ze1" secondAttribute="leading" constant="10" id="AA5-0f-uun"/>
+                                    <constraint firstItem="zTK-Z9-wMt" firstAttribute="trailing" secondItem="3rZ-nF-6Bx" secondAttribute="trailing" id="ANE-rf-z2N"/>
                                     <constraint firstAttribute="trailing" secondItem="XbZ-OK-fqv" secondAttribute="trailing" constant="10" id="Dkw-zd-Wyc"/>
                                     <constraint firstItem="7T4-H1-ybE" firstAttribute="top" secondItem="emE-43-Ze1" secondAttribute="top" constant="10" id="QJe-ZU-Ktx"/>
+                                    <constraint firstItem="zTK-Z9-wMt" firstAttribute="top" secondItem="3rZ-nF-6Bx" secondAttribute="bottom" constant="10" id="huW-qA-QMF"/>
                                     <constraint firstItem="XbZ-OK-fqv" firstAttribute="leading" secondItem="emE-43-Ze1" secondAttribute="leading" constant="10" id="liW-Wc-aAP"/>
                                     <constraint firstAttribute="trailing" secondItem="7T4-H1-ybE" secondAttribute="trailing" constant="10" id="t5j-Ne-wIQ"/>
                                     <constraint firstItem="3rZ-nF-6Bx" firstAttribute="leading" secondItem="emE-43-Ze1" secondAttribute="leading" constant="10" id="ucp-lT-FQb"/>
